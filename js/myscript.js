@@ -20,11 +20,11 @@ function traveled() {
     //document.write ("<h2>"+alert+"</h2>");
 
     //input
-    var framed = prompt('What would you want framed?');
+    var framed = prompt('What would you want framed, city or graffiti?');
     var userOrder = '';
     //processing
     while (framed !== 'graffiti' && framed !== 'city') {
-        framed = prompt('What would you want framed?');
+        framed = prompt('What would you want framed, city or graffiti?');
     }
     if (framed == 'graffiti') {
         userOrder = '<img id="graffiti" src="https://images.pexels.com/photos/1137752/pexels-photo-1137752.jpeg?cs=srgb&dl=pexels-jy-lee-1137752.jpg&fm=jpg">';
