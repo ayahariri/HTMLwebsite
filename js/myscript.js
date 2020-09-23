@@ -1,12 +1,18 @@
 alert ('Weclome to my Blog');
+
 var name = prompt('Please enter your name');
-var nat = prompt ('Where are you from?')
+
+var nat = prompt ('Where are you from?');
+
 console.log(traveled);
+ 
 var traveled = prompt('Have you ever traveled?');
-var greeting;
-if (traveled = No) {
-greeting = alert ('Want to explore my world?');
-} else if (traveled = Yes) {
-    greeting = alert ('Welcome to my World!');
+if (traveled == "no"){
+ alert('Want to explore my world?');
+} else if (traveled == "yes"){
+    alert('Welcome to my World!');
+} else {
+    alert('Something went wrong!')
 }
-document.write('<h2>'+greeting+'</h2>');
+
+document.write ("<h2>"+name+"</h2>");
